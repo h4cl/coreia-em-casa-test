@@ -1,0 +1,1 @@
+// JS leve para interação (AOS.js, botões etc.)
