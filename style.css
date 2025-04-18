@@ -1,1 +1,58 @@
-/* CSS moderno, responsivo, visual Karaíba Style */
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff8f2;
+  color: #333;
+}
+header {
+  background-color: #ff4e42;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffe1db 0%, #fff8f2 100%);
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #ff4e42;
+}
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.cta-button {
+  padding: 15px 30px;
+  background-color: #ff4e42;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #e03e35;
+}
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
